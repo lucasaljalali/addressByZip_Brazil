@@ -25,7 +25,7 @@
             <div class="alert alert-light" role="alert">
                 <h4>Message:</h4>
                 <p>Message text here</p>
-                <button id="clone-message" type="button" class="btn btn-secondary">
+                <button id="close-message" type="button" class="btn btn-secondary">
                     Close
                 </button>
             </div>
@@ -62,7 +62,7 @@
         </div>
 
         
-        <form id="adress-form">
+        <form id="address-form">
 
             <div class="row mb-3">
                 <div class="form-floating">
@@ -74,10 +74,10 @@
             </div>
 
             <div class="row mb-3">
-                <div class="form-floating col-12 col-sm-6 mb-3 mb-sm-0">
-                    <input type="text" class="form-control shadow-none" id="adress" name="adress"
+                <div class="form-floating col-12 col-sm-6 mb-3 mb-md-0">
+                    <input type="text" class="form-control shadow-none" id="address" name="address"
                     placeholder="Street" disabled required data-input>
-                    <label for="adress">Street</label>
+                    <label for="address">Street</label>
                 </div>
 
                 <div class="form-floating col-12 col-sm-6">
@@ -88,7 +88,7 @@
             </div>
 
             <div class="row mb-3">
-                <div class="form-floating col-12 col-sm-6 mb-3 mb-sm-0">
+                <div class="form-floating col-12 col-sm-6 mb-3 mb-md-0">
                     <input type="text" class="form-control shadow-none" id="complement" name="complement"
                     placeholder="Complement" disabled data-input>
                     <label for="complement">Complement</label>
@@ -102,14 +102,14 @@
             </div>
 
             <div class="row mb-3">
-                <div class="form-floating col-12 col-sm-6 mb-3 mb-sm-0">
+                <div class="form-floating col-12 col-sm-6 mb-3 mb-md-0">
                     <input type="text" class="form-control shadow-none" id="city" name="city"
                     placeholder="City" disabled required data-input>
                     <label for="city">City</label>
                 </div>
 
                 <div class="form-floating col-12 col-sm-6">
-                    <select name="state" id="state" class="form-select shadow-none" disabled required data-input>
+                    <select id="state" class="form-select shadow-none" disabled required data-input>
                         <option selected>Estado</option>
                         <option value="AC">Acre</option>
                         <option value="AL">Alagoas</option>
